@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sample-blueprint-inst-711
+  namespace: tenant-tenant-1
+  annotations:
+    platform.system/channel: stable
+    platform.system/mode: RENDER_MODE_APPLY
+  labels:
+    tenant: tenant-1
+    instance: inst-711
+data:
+  values: |
+      {}
