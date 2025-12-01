@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: odoo-inst-45
+  namespace: tenant-tenant-2
+  annotations:
+    platform.system/channel: stable
+    platform.system/mode: RENDER_MODE_APPLY
+  labels:
+    tenant: tenant-2
+    instance: inst-45
+data:
+  values: |
+      {}
