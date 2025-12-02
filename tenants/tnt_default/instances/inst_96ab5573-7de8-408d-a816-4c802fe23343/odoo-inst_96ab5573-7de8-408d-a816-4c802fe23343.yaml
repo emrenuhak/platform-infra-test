@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: odoo-inst_96ab5573-7de8-408d-a816-4c802fe23343
+  namespace: tenant-tnt_default
+  annotations:
+    platform.system/channel: stable
+    platform.system/mode: RENDER_MODE_APPLY
+  labels:
+    tenant: tnt_default
+    instance: inst_96ab5573-7de8-408d-a816-4c802fe23343
+data:
+  values: |
+      {}
